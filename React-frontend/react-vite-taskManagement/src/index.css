@@ -1,0 +1,27 @@
+/* index.css */
+
+/* Resetting some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting a clean font and background */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;  /* Light gray background */
+  color: #333;  /* Dark text for readability */
+  line-height: 1.5;
+}
+
+/* Remove links' default styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global padding for better spacing */
+body {
+  padding: 20px;
+}

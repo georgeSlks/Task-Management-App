@@ -1,0 +1,224 @@
+/* App.css */
+
+/* Resetting some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting a clean font and background */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;  /* Light gray background */
+  color: #333;  /* Dark text for readability */
+  line-height: 1.5;
+}
+
+/* Remove links' default styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global padding for better spacing */
+body {
+  padding: 20px;
+}
+
+/* Centering the entire app */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling the header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #4a90e2;  /* Fresh blue color */
+  font-weight: 600;
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Left section: Only the Add New Task Form */
+.left-section {
+  flex: 1;
+  max-width: 48%;
+}
+
+/* Right section: Search Bar and Tasks */
+.right-section {
+  flex: 1;
+  max-width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Styling the form container */
+.form-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling input fields and textarea */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #f9fafb;
+}
+
+.input-field:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Submit button styling */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #357ab7;
+}
+
+/* Styling the task cards */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+/* Hover effect for the cards */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Completed task appearance */
+.card.completed h2,
+.card.completed p {
+  text-decoration: line-through;
+  color: #aaa; /* Gray out completed task */
+}
+
+/* Highlight tasks that are past due */
+.card.past-due {
+  border: 2px solid #e74c3c; /* Red border */
+}
+
+.due-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* Checkbox for task completion */
+.completion-checkbox {
+  margin-left: 10px;
+}
+
+/* Styling the delete button */
+.delete-btn {
+  background-color: #e74c3c; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b; 
+}
+
+/* Styling the edit button */
+.edit-btn {
+  background-color: #f39c12; /* Yellow color for edit */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-right: 10px; /* Add some space between buttons */
+}
+
+.edit-btn:hover {
+  background-color: #e67e22; /* Darker yellow on hover */
+}
+
+/* Urgent Task Style (Light Pink) */
+.card.urgent {
+  background-color: #ffecf1; /* Light pink */
+}
+
+/* Important Task Style (Orange) */
+.card.important {
+  background-color: #fff4e1; /* Light orange */
+}
+
+/* Styling the search bar */
+.search-container {
+  width: 100%;
+  margin-bottom: 20px; /* Add margin to give space between search bar and tasks */
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
