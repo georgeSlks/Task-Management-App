@@ -35,7 +35,9 @@ A minimalist task management app built with React-Vite, FastAPI and PostgreSQL. 
 ### 9. **Local Storage**
 - Tasks are saved to the browser's local storage to persist between sessions. Tasks will be automatically loaded and saved when the app is opened and modified.
 
-![image](https://github.com/user-attachments/assets/aaf7299d-4505-418e-8092-f83d2ffcfd81)
+![image](https://github.com/user-attachments/assets/aaf7299d-4505-418e-8092-f83d2ffcfd81)  
+
+  
 ![image](https://github.com/user-attachments/assets/03e0b94e-3c4d-448a-8c73-602f4b22f7f9)
 
 
