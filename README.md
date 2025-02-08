@@ -36,13 +36,3 @@ Feel free to try my task management app on : https://georgeslks.github.io/Task-M
 
 ### 9. **Local Storage**
 - Tasks are saved to the browser's local storage to persist between sessions. Tasks will be automatically loaded and saved when the app is opened and modified.
-
-**Snapshots**
-![image](https://github.com/user-attachments/assets/9aac6311-823d-4b56-bf80-b898f9227b14)
-
-<---------------                                                                                                -------------------->  
-
-![image](https://github.com/user-attachments/assets/191bacab-7a9f-4b71-857d-d500cf6eff3e)
-
-
-
