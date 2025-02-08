@@ -2,7 +2,8 @@
 React Js - Fast API - PostgreSQL
 
 A minimalist task management app built with React-Vite, FastAPI and PostgreSQL. This app allows users to add, edit, delete, and manage tasks with functionalities like filtering, priority management, and due date tracking.
-Feel free to try my app : https://georgeslks.github.io/Task-Management-App/
+
+Feel free to try my task management app on : https://georgeslks.github.io/Task-Management-App/
 
 ## Features
 
